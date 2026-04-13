@@ -16,6 +16,7 @@ export default defineConfig({
       '/api': {
         target: 'https://apiexpense.bazhilgroups.in',
         changeOrigin: true,
+        secure: false,
       },
     },
   },
